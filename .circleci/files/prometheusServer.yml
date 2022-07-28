@@ -12,11 +12,11 @@ Parameters:
   Subnet:
     Description: This subnet must already exist
     Type: String
-    Default: subnet-0ec331db20396102c
+    Default: subnet-05a976902e3ab50a6
   AZ:
     Description: Choose an AZ that corresponds to the Subnet in the !Subnet section
     Type: String
-    Default: us-east-1d
+    Default: us-east-1c
   KeyPair:
     Description: |
       Set a keypair you will use to connect to the instance
